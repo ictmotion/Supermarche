@@ -30,11 +30,12 @@ public class ProductRegistrationService: IProductRegistrationService
         {
             _extraProducts.Add(product);
         }
-
+        _productsScanned.Add(product);
+        
         var discount = _discountScanner.ScanForDiscount(_productsScanned, product);
         _totalPrice -= discount;
         
-        _productsScanned.Add(product);
+        
     }
 
     /// <summary>

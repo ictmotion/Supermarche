@@ -5,6 +5,21 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=52f0df06_002D7a85_002D4074_002Dafce_002D620bd555df63/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;SuperMarche.Test&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;Project Location="/Users/ahoekst/RiderProjects/SuperMarche/SuperMarche.Test" Presentation="&amp;lt;SuperMarche.Test&amp;gt;" /&gt;
 &lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7b54d993_002D83a4_002D4859_002D998d_002D9cc8e195cfe2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Session" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Or&gt;
+    &lt;And&gt;
+      &lt;Or&gt;
+        &lt;Project Location="/Users/ahoekst/RiderProjects/SuperMarche/SuperMarche.Test" Presentation="&amp;lt;SuperMarche.Test&amp;gt;" /&gt;
+        &lt;TestAncestor&gt;
+          &lt;TestId&gt;xUnit::C1BCF1BF-A03E-4C66-B7A0-F7D75B2B9D8E::net9.0::SuperMarche.Test.ProductRegistrationServiceTests.Registration_Discount_Success&lt;/TestId&gt;
+          &lt;TestId&gt;xUnit::C1BCF1BF-A03E-4C66-B7A0-F7D75B2B9D8E::net9.0::SuperMarche.Test.ProductRegistrationServiceTests&lt;/TestId&gt;
+        &lt;/TestAncestor&gt;
+      &lt;/Or&gt;
+      &lt;Project Location="/Users/ahoekst/RiderProjects/SuperMarche" Presentation="&amp;lt;SuperMarche&amp;gt;" /&gt;
+    &lt;/And&gt;
+    &lt;Project Location="/Users/ahoekst/RiderProjects/SuperMarche/SuperMarche.Test" Presentation="&amp;lt;SuperMarche.Test&amp;gt;" /&gt;
+  &lt;/Or&gt;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b2a6a05f_002D8602_002D4af5_002D9f95_002D8c4e472e3369/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;Solution /&gt;
 &lt;/SessionState&gt;</s:String>

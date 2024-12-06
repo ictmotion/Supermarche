@@ -3,14 +3,6 @@ namespace SuperMarche.Test;
 
 public class ProductRegistrationServiceTests
 {
-
-    //private readonly IProductRegistrationService _productRegistrationService;
-
-    //public ProductRegistrationServiceTests(IProductRegistrationService productRegistrationService)
-    //{
-    //    _productRegistrationService = productRegistrationService;
-    //}
-    
     [Fact]
     public void Register_SimplePriceCalculation_Success()
     {
@@ -73,7 +65,7 @@ public class ProductRegistrationServiceTests
     public void Registration_Discount_Success()
     {
         var product1 = new Product() { Id = 1, Name = "Chocolat", Price = 1 };
-        var products = new List<IProduct>(){product1,product1,product1,product1,product1,product1,product1,product1,product1};
+        var products = new List<IProduct>(){product1,product1,product1,product1,product1,product1,product1,product1,product1, product1};
         
         var productRegistrationService = new ProductRegistrationService(new ExtraProductScanner(), new DiscountScanner());
 
